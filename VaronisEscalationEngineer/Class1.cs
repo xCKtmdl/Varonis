@@ -20,9 +20,7 @@ namespace Varonis
             Random random = new Random();
             for (int i=0;i<999;i++)
             {
-                // original
-                //numbers.Add(random.Next(1000000));
-                numbers.Add(random.Next(200));
+                numbers.Add(random.Next(1000000));
             }
 
             for (int i=0;i<numbers.Count;i++)

@@ -4,8 +4,6 @@
     {
         public static void Main(string[] args)
         {
-            var s = InterviewQuestion.questionOne();
-
         }
     }
 }

@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/VaronisEscalationEngineer/v17/TestStore/0
+/.vs/VaronisEscalationEngineer/v17
+/VaronisEscalationEngineer/obj
+/VaronisTests/bin/Debug/net6.0
+/VaronisTests/obj/Debug/net6.0
+/VaronisTests/obj
