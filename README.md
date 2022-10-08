@@ -81,4 +81,40 @@ of how the code is not operating as intended:
                 numbers.Add(random.Next(200));
 ```
 
-Now you can see that the test fails and how.
+Now you can see that the test fails and how. You can also change the length of the list to something smaller than 999 for illustrative purpose.
+
+Let's take this length 6 list for example.
+
+5
+\
+18
+\
+115
+\
+182
+\
+300
+\
+400
+
+When i=2, the code is supposed to remove 115, which it does. But now the incrementer
+is incremented to i=3, and 182 which is supposed to be removed is now in the
+numbers[2] spot and does not get checked/removed.
+
+So the problem is with consecutive numbers in the range.
+
+## 3) How do you fix the bug?
+
+Here is the correction to the for loop:
+
+```csharp
+            for (int i=0;i<numbers.Count;)
+            {
+                if (numbers[i] > 99 && numbers[i] < 201)
+                {
+                    numbers.RemoveAt(i);
+                }
+                else
+                    i++;
+            }
+```
