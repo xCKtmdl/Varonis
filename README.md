@@ -1,6 +1,6 @@
 # Varonis Technical Interview Question
 
-This is the question Veronis asked me for the coding interview for Escalation Engineer.
+This is the question Varonis asked me for the coding interview for Escalation Engineer.
 
 I ran the code through the Program.cs file, and not by unit test during
 the interview.
